@@ -22,9 +22,6 @@ func main() {
 
 	var firstnumber, secondnumber int64
 
-	//var sqrnumber float64
-
-	//argsWithProg := os.Args
 	arg := os.Args[1]
 	firstnumber, firsterror := strconv.ParseInt(os.Args[2], 10, 64)   //converter str/int64
 	secondnumber, seconderror := strconv.ParseInt(os.Args[3], 10, 64) //Arrumar array fora do balde
@@ -38,35 +35,6 @@ func main() {
 		fmt.Println("por favor digite um número (int64) para o segundo valor do cálculo")
 		return
 	}
-
-	//fmt.Println(argsWithProg)
-	//fmt.Println(arg, firstnumber, secondnumber)
-
-	/*
-		if arg == "soma" {
-			result := soma.Soma(firstnumber, secondnumber)
-			fmt.Printf("resultado da soma: %v \n", result)
-			return
-		} else if arg == "sub" {
-			result := sub.Sub(firstnumber, secondnumber)
-			fmt.Printf("resultado da subtração: %v \n", result)
-			return
-		} else if arg == "div" {
-			result := div.Div(firstnumber, secondnumber)
-			fmt.Printf("resultado da divisão: %v \n", result)
-			return
-		} else if arg == "multi" {
-			result := multi.Multi(firstnumber, secondnumber)
-			fmt.Printf("resultado da multiplicação: %v \n", result)
-			return
-		} else if arg == "pow" {
-			result := pow.Pow(firstnumber)
-			fmt.Printf("resultado da potência: %v \n", result)
-			return
-		} else {
-			fmt.Printf("arg está inválido, opções válidas: soma, sub, div, multi, pow")
-		}
-	*/
 
 	switch arg {
 	case "soma":
