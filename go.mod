@@ -1,3 +1,3 @@
-module testes
+module Calculadora
 
 go 1.15
