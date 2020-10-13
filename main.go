@@ -7,15 +7,15 @@
 package main
 
 import (
+	"Calculadora/div"
+	"Calculadora/multi"
+	"Calculadora/pow"
+	"Calculadora/soma"
+	"Calculadora/sqr"
+	"Calculadora/sub"
 	"fmt"
 	"os"
 	"strconv"
-	"testes/div"
-	"testes/multi"
-	"testes/pow"
-	"testes/soma"
-	"testes/sqr"
-	"testes/sub"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package pow
 
 import "testing"
 
-func PowTest(t *testing.T) {
+func TestPow(t *testing.T) {
 	var v float64
 	v = Pow(2, 3)
 	if v != 8 {

@@ -2,7 +2,7 @@ package soma
 
 import "testing"
 
-func SomaTest(t *testing.T) {
+func TestSoma(t *testing.T) {
 	var v int64
 	v = Soma(10, 5)
 	if v != 15 {

@@ -2,10 +2,10 @@ package multi
 
 import "testing"
 
-func MultiTest(t *testing.T) {
+func TestMulti(t *testing.T) {
 	var v int64
 	v = Multi(10, 5)
-	if v != 15 {
+	if v != 50 {
 		t.Error("Expected 15, got ", v)
 	}
 }

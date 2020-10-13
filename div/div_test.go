@@ -2,10 +2,10 @@ package div
 
 import "testing"
 
-func DivTest(t *testing.T) {
+func TestDiv(t *testing.T) {
 	var v int64
-	v = Div(10, 5)
-	if v != 15 {
+	v = Div(8, 2)
+	if v != 4 {
 		t.Error("Expected 15, got ", v)
 	}
 }
