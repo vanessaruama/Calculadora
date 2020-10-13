@@ -7,15 +7,16 @@
 package main
 
 import (
-	"Calculadora/div"
-	"Calculadora/multi"
-	"Calculadora/pow"
-	"Calculadora/soma"
-	"Calculadora/sqr"
-	"Calculadora/sub"
 	"fmt"
 	"os"
 	"strconv"
+
+	"github.com/vanessaruama/Calculadora/div"
+	"github.com/vanessaruama/Calculadora/multi"
+	"github.com/vanessaruama/Calculadora/pow"
+	"github.com/vanessaruama/Calculadora/soma"
+	"github.com/vanessaruama/Calculadora/sqr"
+	"github.com/vanessaruama/Calculadora/sub"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module Calculadora
+module github.com/vanessaruama/Calculadora
 
 go 1.15
 
