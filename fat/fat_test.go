@@ -9,4 +9,3 @@ func TestFat(t *testing.T) {
 		t.Error("Expected 15, got ", v)
 	}
 }
-go 
