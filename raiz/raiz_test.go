@@ -1,4 +1,4 @@
-package sqr
+package raiz
 
 import (
 	"testing"

@@ -3,6 +3,7 @@
 //operações que faltam
 //testes para todas as operações
 //ver se tem um jeito de rodar todos (testes)
+//adicionar operação fatorial
 
 package main
 
@@ -12,10 +13,11 @@ import (
 	"strconv"
 
 	"github.com/vanessaruama/Calculadora/div"
+	"github.com/vanessaruama/Calculadora/fat"
 	"github.com/vanessaruama/Calculadora/multi"
-	"github.com/vanessaruama/Calculadora/pow"
+	"github.com/vanessaruama/Calculadora/pot"
+	"github.com/vanessaruama/Calculadora/raiz"
 	"github.com/vanessaruama/Calculadora/soma"
-	"github.com/vanessaruama/Calculadora/sqr"
 	"github.com/vanessaruama/Calculadora/sub"
 )
 
@@ -54,15 +56,19 @@ func main() {
 		result := multi.Multi(firstnumber, secondnumber)
 		fmt.Printf("resultado da multiplicação: %v \n", result)
 		return
-	case "pow":
-		result := pow.Pow(float64(firstnumber), float64(secondnumber)) //pacote para potencia
+	case "pot":
+		result := pot.Pow(float64(firstnumber), float64(secondnumber))
 		fmt.Printf("resultado da potência: %v \n", result)
 		return
-	case "sqr":
+	case "raiz":
 		var floatnumber float64
 		floatnumber = float64(firstnumber)
-		result := sqr.Sqrt(floatnumber)
+		result := raiz.Sqrt(floatnumber)
 		fmt.Printf("resultado da raiz quadrada: %v \n", result)
+		return
+	case "fat":
+		result := fat.Fat(firstnumber)
+		fmt.Printf("resultado da potência: %v \n", result)
 		return
 	default:
 		fmt.Printf("o cálculo informado não é válido, opções válidas: soma, sub, div, multi, pow, sqr")

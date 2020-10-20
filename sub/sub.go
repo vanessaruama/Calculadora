@@ -1,4 +1,4 @@
-// Package sub é um pacote para realizar a subtração
+// Package sub é um pacote para realizar a operação de subtração
 package sub
 
 // Sub faz a subtração de dois números inteiros
